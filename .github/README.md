@@ -1,10 +1,11 @@
 ## hypr
-### Scripts for hyprland/waybar/fish/tmux, including fan control, ASUS-specific integrations (asudsctl &amp; supergfxctl), and fish shell.
+
+Scripts for hyprland/waybar/fish/tmux, including fan control, ASUS-specific integrations (asudsctl &amp; supergfxctl), and fish shell.
+Current screenshots are placeholders and showcase my rice :)
 
 >[!NOTE]
 > WIP - not all scripts are working yet.
 
-Current status of the scripts:
 | Nvim  | Tmux |
 | :--: | :--: |
 | ![tiled-window](./assets/nvim.png) | ![terminal](./assets/terminal.png) |
