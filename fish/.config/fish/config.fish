@@ -1,6 +1,5 @@
 set -g fish_greeting
 
-# Uses HyDE config check: https://github.com/HyDE-Project/hyde
 source ~/.config/fish/hyde_config.fish
 
 if type -q starship
@@ -45,7 +44,8 @@ abbr .5 'cd ../../../../..'
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 abbr mkdir 'mkdir -p'
 
-# Parazeeknova's config
+# Parazeeknova config
+
 # System
 alias pewin='sudo pacman -S'
 alias pewrm='sudo pacman -R'
@@ -121,3 +121,5 @@ eval (thefuck --alias | tr '\n' ';')
 
 # Tmux related config
 COMPLETE=fish tms | source
+
+fish_add_path /home/parazeeknova/.spicetify
