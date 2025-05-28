@@ -3,5 +3,7 @@
   "return-type": "json",
   "interval": "once",
   "format": "{}",
-  "tooltip": true
+  "tooltip": true,
+  "on-click": "~/.config/waybar/modules/asus_control_menu.sh",
+  "signal": 8
 },
