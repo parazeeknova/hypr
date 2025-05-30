@@ -1,9 +1,9 @@
-## hypr
+## hypr (waybar module) 🔌
 
 Scripts for hyprland/waybar/fish/tmux, including fan control, ASUS-specific integrations (asudsctl &amp; supergfxctl), and fish shell.
 
 >[!NOTE]
-> I currently use Arch Linux with Hyprland (HyDE config). The module is made for waybar. You can use stow to copy the module to your waybar config.
+> I currently use Arch Linux (btw) with Hyprland (HyDE config). The module is made for waybar. You can use stow to copy the module to your waybar config.
 
 ### Preview for waybar module (hybrid with performance mode)
 
@@ -44,6 +44,6 @@ chmod +x ~/.config/waybar/modules/asus_control_menu.sh
 
 ### Preview for Hyprland workspace with waybar module
 
-| Nvim  | Tmux |
+| Nvim  | Tui-spotify |
 | :--: | :--: |
 | ![tiled-window](./assets/vscodium.png) | ![spotify](./assets/spotify.png) |
